@@ -43,7 +43,7 @@ Failed to run app with [/usr/local/bin/gitea admin user change-password
 ```
 Looks like the container is getting an empty password for some reason. 
 
-In this lab, Gitea is set up to  obtain its admin username and password from a secret called `gitea-admin-secret` which is managed by [external-secrets](https://external-secrets.io/v0.7.2/) and pulls the secret from a self-hosted [https://www.vaultproject.io/](Vault) instance.
+In this lab, Gitea is set up to  obtain its admin username and password from a secret called `gitea-admin-secret` which is managed by [external-secrets](https://external-secrets.io/v0.7.2/) and pulls the secret from a self-hosted [Vault](https://www.vaultproject.io/) instance.
 
 Let's verify that the secret has an empty password using `kubectl get secrets -n gitea gitea-admin-secret -o yaml`.
 ```yaml
