@@ -2,7 +2,7 @@
 
 title = "Getting Started: Issue with Persistent Volume Claims"
 description = "foobar"
-date = 2023-03-11
+date = "2023-03-11"
 
 [taxonomies]
 tags = ["kubernetes"]
