@@ -5,6 +5,7 @@ metadata:
 spec:
   workspaces:
     - name: shared-data
+    - name: harbor-auth
   tasks:
     - name: clone
       taskRef:
@@ -42,4 +43,7 @@ spec:
       workspaces:
         - name: source
           workspace: shared-data
+        - name: dockerconfig
+          workspace: harbor-auth
+
 
