@@ -1,7 +1,9 @@
 +++
-
 title = "Terraform: Migrating deprecated resource type name"
 date = "2023-03-13T21:43:00.00Z"
+
+[taxonomies]
+tags = ["terraform"]
 +++
 
 This is a short post noting down how to migrate a deprecated resource type name to its new name.
