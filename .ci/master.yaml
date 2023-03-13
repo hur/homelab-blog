@@ -39,7 +39,7 @@ spec:
             value: "0.6"
       params:
         - name: IMAGE
-          value: harbor.atte.cloud/library/blog:$(params.git_revision)
+          value: harbor.atte.cloud/library/blog:latest
         - name: DOCKERFILE
           value: ./Dockerfile.blog
       workspaces:
